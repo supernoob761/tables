@@ -12,7 +12,7 @@ for(int i=0;i<=x-1;i++){
 
 for(int i=0;i<x-1;i++){
     for(int j=0;j<x-1;j++)
-    if(num[j] > num[j+1]){
+    if(num[j] < num[j+1]){
     int Big=num[j];
     num[j]=num[j+1];
     num[j+1]=Big;
